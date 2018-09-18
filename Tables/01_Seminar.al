@@ -30,7 +30,8 @@ table 123456701 "CSD Seminar"
             // "No."=Field("No."))); 
         }
         field(100; "Seminar Price"; Decimal)
-        { Caption = 'Seminar Price'; AutoFormatType = 1; }
+        { Caption = 'Seminar Price'; 
+        AutoFormatType = 1; }
         field(110; "Gen. Prod. Posting Group"; code[10])
         { Caption = 'Gen. Prod. Posting Group'; TableRelation = "Gen. Product Posting Group"; }
         field(120; "VAT Prod. Posting Group"; code[10])

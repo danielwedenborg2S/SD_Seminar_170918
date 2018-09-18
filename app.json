@@ -12,6 +12,7 @@
   "url": "",
   "logo": "",
   "capabilities": [],
+  "showMyCode": true,
   "dependencies": [],
   "screenshots": [],
   "platform": "11.0.0.0",
