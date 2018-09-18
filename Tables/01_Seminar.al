@@ -37,7 +37,7 @@ table 123456701 "CSD Seminar"
             Editable = false;
 
             FieldClass=FlowField; 
-            CalcFormula=exist("CSD seminar Comment Line" 
+            CalcFormula=exist("CSD Seminar Comment Line" 
             where("Table Name"= const("Seminar"), 
              "No."=Field("No."))); 
         }
