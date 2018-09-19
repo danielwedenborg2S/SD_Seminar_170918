@@ -1,0 +1,13 @@
+codeunit 123456798 MyCodeunit
+{
+    trigger OnRun();
+    begin
+cust.get('10000');
+if cust."Name 2" = ' 'then
+cust.FieldError(WarningsTxt,))
+    end;
+    
+    var
+        cust : Record Customer;
+        WarningsTxt : label '%1 must be filled '
+}
